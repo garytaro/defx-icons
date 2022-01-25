@@ -175,6 +175,13 @@ let s:extensions = extend({
       \ 'webp': {'icon': '', 'color': s:gui_colors.aqua, 'term_color': s:term_colors.aqua},
       \ 'xcplayground': {'icon': '', 'color': s:gui_colors.orange, 'term_color': s:term_colors.orange},
       \ 'svelte': {'icon': '', 'color': s:gui_colors.darkOrange, 'term_color': s:term_colors.darkOrange},
+      \ 'xlsx': {'icon': 'X ', 'color': s:gui_colors.green, 'term_color': s:term_colors.green},
+      \ 'pptx': {'icon': 'P ', 'color': s:gui_colors.orange, 'term_color': s:term_colors.orange},
+      \ 'docx': {'icon': 'W ', 'color': s:gui_colors.blue, 'term_color': s:term_colors.blue},
+      \ 'xls': {'icon': 'X ', 'color': s:gui_colors.green, 'term_color': s:term_colors.green},
+      \ 'ppt': {'icon': 'P ', 'color': s:gui_colors.orange, 'term_color': s:term_colors.orange},
+      \ 'doc': {'icon': 'W ', 'color': s:gui_colors.blue, 'term_color': s:term_colors.blue},
+      \ 'pdf': {'icon': '', 'color': s:gui_colors.red, 'term_color': s:term_colors.red},
       \ }, get(g:, 'defx_icons_extensions', {}))
 
 let s:exact_matches = extend({
