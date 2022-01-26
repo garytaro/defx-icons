@@ -95,6 +95,7 @@ let s:extensions = extend({
       \ 'png': {'icon': '', 'color': s:gui_colors.aqua, 'term_color': s:term_colors.aqua},
       \ 'gif': {'icon': '', 'color': s:gui_colors.aqua, 'term_color': s:term_colors.aqua},
       \ 'ico': {'icon': '', 'color': s:gui_colors.aqua, 'term_color': s:term_colors.aqua},
+      \ 'svg': {'icon': '', 'color': s:gui_colors.aqua, 'term_color': s:term_colors.aqua},
       \ 'twig': {'icon': '', 'color': s:gui_colors.green, 'term_color': s:term_colors.green},
       \ 'cpp': {'icon': '', 'color': s:gui_colors.blue, 'term_color': s:term_colors.blue},
       \ 'cxx': {'icon': '', 'color': s:gui_colors.blue, 'term_color': s:term_colors.blue},
