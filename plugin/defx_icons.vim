@@ -183,6 +183,9 @@ let s:extensions = extend({
       \ 'ppt': {'icon': 'P ', 'color': s:gui_colors.orange, 'term_color': s:term_colors.orange},
       \ 'doc': {'icon': 'W ', 'color': s:gui_colors.blue, 'term_color': s:term_colors.blue},
       \ 'pdf': {'icon': '', 'color': s:gui_colors.red, 'term_color': s:term_colors.red},
+      \ 'gsheet': {'icon': 'G ', 'color': s:gui_colors.green, 'term_color': s:term_colors.green},
+      \ 'gdoc': {'icon': 'G ', 'color': s:gui_colors.blue, 'term_color': s:term_colors.blue},
+      \ 'gslides': {'icon': 'G ', 'color': s:gui_colors.yellow, 'term_color': s:term_colors.yellow},
       \ }, get(g:, 'defx_icons_extensions', {}))
 
 let s:exact_matches = extend({
